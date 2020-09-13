@@ -22,10 +22,10 @@ end
 def kesha_maker(array)
   array.collect do |i|
     i.insert 2, "$"
-    #i.delete(4)
-    #each_with_index - output original array
   end
 end
+#i.delete(4)
+#each_with_index - output original array
 
 def find_a(array)
   array.select do |word|
