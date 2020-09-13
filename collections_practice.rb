@@ -21,7 +21,7 @@ end
 
 def kesha_maker(array)
   array.collect do |i|
-    i.insert 2, "$"
+    i.gsub!(3, "$")
   end
 end
 #i.delete(4)
