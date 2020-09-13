@@ -21,8 +21,10 @@ end
 
 def kesha_maker(array)
   array.collect do |i|
+    i[2] = $
+    i
     #i.index(3) = "$"
-    i.insert 2, "$"
+    #i.insert 2, "$"
   end
 end
 #i[2] = "$"
